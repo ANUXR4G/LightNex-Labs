@@ -7,7 +7,7 @@ import Mageui from "../../../public/mageui.png"
 const SelectedProjects = () => {
   const projects = [
     {
-      title: 'Mindost',
+      title: 'MinDost',
       items: ['Startup', 'AI', 'Mental Health Support', 'Web Design'],
       image: MinDost,
       href: 'https://mindost.vercel.app/', // Add project-specific route

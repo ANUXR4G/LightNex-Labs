@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function CTASection() {
   return (
-    <section className="relative py-20 sm:py-24 lg:py-32 bg-black text-[calc(var(--_size)*0.022)] [--_factor:min(1000px,100vh)] [--_size:min(var(--_factor),100vw)]">
+    <section className="relative py-20 sm:py-24 lg:py-6 bg-black text-[calc(var(--_size)*0.022)] [--_factor:min(1000px,100vh)] [--_size:min(var(--_factor),100vw)]">
       <div className="w-full mx-auto px-4 sm:px-8 md:px-12 lg:px-32">
         <motion.div
           className="w-full relative py-6 sm:py-8 md:py-10 px-3 sm:px-6 md:px-8 rounded-2xl bg-black overflow-hidden flex justify-center items-center"
